@@ -106,7 +106,7 @@ body {
 
 /* Section fond avec image fixe et superposition sombre */
 .fond {
-    background: url("images/fond.avif") no-repeat center center / cover;
+    background: url("images/about.jpg") no-repeat center center / cover;
     height: 100vh;
     position: relative;
     background-attachment: fixed;
@@ -115,6 +115,9 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 0 20px;
+}
+#b{
+  height: 450px;
 }
 
 .fond::before {
